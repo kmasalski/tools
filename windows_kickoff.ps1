@@ -1,9 +1,9 @@
 # https://docs.microsoft.com/en-us/windows/wsl/install#install-wsl-command
-# in powershell admin
+# install wsl; in powershell admin"
 wsl --install
 
-# https://docs.microsoft.com/en-us/windows/wsl/setup/environment
-
+# install docker and docker compose; in ubuntu:
+# https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
 # todo nerd fonts
 # https://github.com/ryanoasis/nerd-fonts

@@ -15,7 +15,28 @@
                 },
                 {
                     "PackageIdentifier": "Microsoft.PowerShell"
-                }
+                },
+                {
+                    "PackageIdentifier": "7zip.7zip"
+                },
+                {
+                    "PackageIdentifier": "Git.Git"
+                },
+                {
+                    "PackageIdentifier": "Greenshot.Greenshot"
+                },
+                {
+                    "PackageIdentifier": "OpenJS.NodeJS"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.VisualStudioCode"
+                },
+                {
+					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
+				},
+                {
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.6"
+				}
             ],
             "SourceDetails": {
                 "Argument": "https://cdn.winget.microsoft.com/cache",
