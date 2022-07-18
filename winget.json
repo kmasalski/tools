@@ -32,11 +32,41 @@
                     "PackageIdentifier": "Microsoft.VisualStudioCode"
                 },
                 {
-					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
-				},
+                    "PackageIdentifier": "Adobe.Acrobat.Reader.64-bit"
+                },
                 {
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.6"
-				}
+                    "PackageIdentifier": "Microsoft.DotNet.SDK.6"
+                },
+                {
+                    "PackageIdentifier": "Anki.Anki"
+                },
+                {
+                    "PackageIdentifier": "Postman.Postman"
+                },
+                {
+                    "PackageIdentifier": "JetBrains.Toolbox"
+                },
+                {
+                    "PackageIdentifier": "WinMerge.WinMerge"
+                },
+                {
+                    "PackageIdentifier": "XMind.XMind"
+                },
+                {
+                    "PackageIdentifier": "Zoom.Zoom"
+                },
+                {
+                    "PackageIdentifier": "DominikReichl.KeePass"
+                },
+                {
+                    "PackageIdentifier": "RescueTime.DesktopApp"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.AzureStorageExplorer"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.SQLServerManagementStudio"
+                }
             ],
             "SourceDetails": {
                 "Argument": "https://cdn.winget.microsoft.com/cache",
