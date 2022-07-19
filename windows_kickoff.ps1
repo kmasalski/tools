@@ -2,6 +2,9 @@
 # install wsl; in powershell admin"
 wsl --install
 
+# increase available resources
+notepad "$env:USERPROFILE/.wslconfig"
+
 # install docker and docker compose; in ubuntu:
 # https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository
 
