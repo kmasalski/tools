@@ -33,3 +33,11 @@ oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/jandedobbeleer.omp
 # autostart docker (not needed in W11)
 # https://stackoverflow.com/a/65814529/1219811
 wsl.exe -u root -e sh -c "service docker status || service docker start"
+
+
+$t = 8 * 60 * 60 + 5
+$dte = Get-Date
+$dte = $dte.AddSeconds($t)
+$c = "Shutdown at $dte"
+shutdown /s /t $t /c $c && $c
+
