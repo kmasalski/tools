@@ -18,9 +18,12 @@ Install-Module -Name Terminal-Icons -Repository PSGallery
 Install-Module -Name PowerShellGet -Force
 Install-Module PSReadLine -AllowPrerelease -Force
 
-# install winget
+# install winget from msstore
 
 # OhMyPosh
 winget install JanDeDobbeleer.OhMyPosh -s winget
 Invoke-WebRequest "https://raw.githubusercontent.com/kmasalski/tools/main/winget.json" -OutFile winget.json
 winget import winget.json
+
+git config --global user.email ""
+git config --global user.name ""

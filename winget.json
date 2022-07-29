@@ -66,6 +66,9 @@
                 },
                 {
                     "PackageIdentifier": "Microsoft.SQLServerManagementStudio"
+                },
+                {
+                    "PackageIdentifier": "Microsoft.PowerToys"
                 }
             ],
             "SourceDetails": {

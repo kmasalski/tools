@@ -35,7 +35,7 @@ oh-my-posh --init --shell pwsh --config $env:POSH_THEMES_PATH/jandedobbeleer.omp
 wsl.exe -u root -e sh -c "service docker status || service docker start"
 
 
-function scheduleshutdown($h) {
+function Set-Shutdown($h) {
    $t = $h * 60 * 60
    $dte = Get-Date
    $dte = $dte.AddSeconds($t)
@@ -44,15 +44,15 @@ function scheduleshutdown($h) {
 }
 
 $h = 9
-scheduleshutdown($h)
+Set-Shutdown($h)
 
 
-function toshutdown() {
+function Get-ShutdownTime() {
    $dte = Get-Date
    return NEW-TIMESPAN –Start $dte  –End   (Get-Uptime -Since).AddHours($h) 
 }
 
-function urlencode {
+function Urlencode {
    param (
       [Parameter(
          Mandatory = $true, 
@@ -68,7 +68,7 @@ function urlencode {
    }
 }
 
-function urldecode {
+function Urldecode {
    param (
       [Parameter(
          Mandatory = $true, 
@@ -85,7 +85,7 @@ function urldecode {
 
 }
 
-function getpassword {
+function New-Password {
    param (
       [Parameter(Mandatory)]
       [int] $length
